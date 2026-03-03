@@ -1,0 +1,81 @@
+{
+  "projectType": "frontend",
+  "projectName": "Bursa Water Consumption",
+  "projectDescription": "A React application that visualizes water consumption data for Bursa districts and neighborhoods using interactive maps",
+  "theme": "palm",
+  "primaryColor": "#0EA5E9",
+  "lightColor": "#38BDF8",
+  "darkColor": "#0284C7",
+  "navigation": {
+    "tabs": [
+      {
+        "tab": "Documentation",
+        "groups": [
+          {
+            "group": "Get Started",
+            "pages": ["introduction", "quickstart", "installation"]
+          },
+          {
+            "group": "Core Features",
+            "pages": [
+              "features/water-consumption-visualization",
+              "features/interactive-maps",
+              "features/district-selection",
+              "features/dark-mode"
+            ]
+          },
+          {
+            "group": "Components",
+            "pages": [
+              "components/overview",
+              "components/map",
+              "components/kullanici-secim",
+              "components/details",
+              "components/navbar",
+              "components/footer"
+            ]
+          },
+          {
+            "group": "Guides",
+            "pages": [
+              "guides/data-sources",
+              "guides/cors-configuration",
+              "guides/deployment"
+            ]
+          }
+        ]
+      },
+      {
+        "tab": "API Reference",
+        "groups": [
+          {
+            "group": "Data APIs",
+            "pages": [
+              "api/overview",
+              "api/monthly-consumption",
+              "api/yearly-consumption",
+              "api/geolocation-data"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "keyFeatures": [
+    "Interactive map visualization with React Leaflet",
+    "District and neighborhood selection system",
+    "Monthly and yearly water consumption data display",
+    "Dark mode support",
+    "Real-time data fetching from Bursa Municipality Open Data Platform",
+    "Neighborhood boundary visualization on map"
+  ],
+  "publicApiSurface": [
+    "App - Main application component",
+    "AllWorks - Core functionality orchestrator",
+    "Map - Interactive map component with Leaflet integration",
+    "KullaniciSecim - User selection interface for district/neighborhood",
+    "Details - Monthly consumption details component",
+    "Navbar - Navigation with dark mode toggle",
+    "Footer - Application footer component"
+  ]
+}
